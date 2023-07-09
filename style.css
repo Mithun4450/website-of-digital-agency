@@ -1,0 +1,85 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navigation Bar  */
+.nav-container{
+    width: 100%;
+    background-color: #7D7D7D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo img{
+    padding: 10px;
+}
+.manu-container ul{
+    display: flex;
+    list-style: none;
+}
+
+.manu-container ul>li{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+/* Bannar */
+.bannar-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("asset/image/background.jpg"), linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.bannar-items-container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+   
+}
+.digital{
+    color: red;
+}
+.bannar-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.bannar-description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.btn{
+    padding: 15px 35px;
+    margin-right: 15px;
+    font-size: 15px;
+    border: none;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.round{
+    border-radius: 10px;
+}
+.service-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
