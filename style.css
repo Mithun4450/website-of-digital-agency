@@ -77,7 +77,7 @@
     color: red;
 }
 .bannar-title{
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -176,4 +176,43 @@
 }
 .outside{
     margin-top: -150px;
+}
+
+
+
+/* Consultation Part */
+.consultation-container{
+    width: 80%;
+    height: 150px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -50px;
+
+}
+
+.call{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    padding: 20px;
+}
+
+
+.appointment{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid gray;
+
+
 }
